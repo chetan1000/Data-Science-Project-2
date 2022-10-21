@@ -1,0 +1,99 @@
+[from 64 columns onwards]
+
+(yes nd no are nminal type)
+
+1) n_r_ecg_p_10: Ventricular fibrillation on ECG at the time of admission to hospital: cases 0(no)(1583) and 1(yes)(2) nd MV(115)
+
+2) n_p_ecg_p_01: Sinoatrial block on ECG at the time of admission to hospital : cases 0(no)(1583) and 1(yes)(2) nd MV(115)
+
+3) n_p_ecg_p_03: First-degree AV block on ECG at the time of admission to hospital: cases 0(no)(1553) and 1(yes)(32) nd MV(115)
+
+4) n_p_ecg_p_04: Type 1 Second-degree AV block (Mobitz I/Wenckebach) on ECG at the time of admission to hospital: cases: 0(no)(1580) and 1(yes)(5) nd MV(115)
+
+5) n_p_ecg_p_05: Type 2 Second-degree AV block (Mobitz II/Hay) on ECG at the time of admission to hospital: cases 0(no)(1583) and 1(yes)(2) nd MV(115)
+
+6) n_p_ecg_p_06: Third-degree AV block on ECG at the time of admission to hospital: cases 0(no)(1558) and 1(yes)(27) nd MV(115)
+
+7) n_p_ecg_p_07: LBBB (anterior branch) on ECG at the time of admission to hospital: cases 0(no)(1483) and 1(yes)(102) nd MV(115)
+
+8) n_p_ecg_p_08: LBBB (posterior branch) on ECG at the time of admission to hospital: cases 0(no)(1578) and 1(yes)(7) nd MV(115)
+
+9) n_p_ecg_p_09: Incomplete LBBB on ECG at the time of admission to hospital: cases 0(no)(1575) and 1(yes)(10) nd MV(115)
+
+10) n_p_ecg_p_10: Complete LBBB on ECG at the time of admission to hospital:  cases 0(no)(1551) and 1(yes)(34) nd MV(115)
+
+11) n_p_ecg_p_11: Incomplete RBBB on ECG at the time of admission to hospital:  cases 0(no)(1557) and 1(yes)(28) nd MV(115)
+
+12) n_p_ecg_p_12: Complete RBBB on ECG at the time of admission to hospital:  cases 0(no)(1507) and 1(yes)(78) nd MV(115)
+
+
+13) fibr_ter_01: Fibrinolytic therapy by Ð¡Ðµliasum 750k IU:  cases 0(no)(1667) and 1(yes)(13) nd MV(10)
+
+14) fibr_ter_02: Fibrinolytic therapy by Ð¡Ðµliasum 1m IU:    cases 0(no)(1674) and 1(yes)(16) nd MV(10)
+
+15) fibr_ter_03: Fibrinolytic therapy by Ð¡Ðµliasum 3m IU:    cases 0(no)(1622) and 1(yes)(68) nd MV(10)
+
+16) fibr_ter_05: Fibrinolytic therapy by Streptase:           cases 0(no)(1686) and 1(yes)(4) nd MV(10)
+
+17) fibr_ter_06: Fibrinolytic therapy by Ð¡Ðµliasum 500k IU:  cases 0(no)(1681) and 1(yes)(9) nd MV(10)
+
+18) fibr_ter_07: Fibrinolytic therapy by Ð¡Ðµliasum 250k IU:  cases 0(no)(1684) and 1(yes)(6) nd MV(10)
+
+18) fibr_ter_08: Fibrinolytic therapy by Streptodecase 1.5m IU:  cases 0(no)(1688) and 1(yes)(2) nd MV(10)
+
+19) GPIO_K: Hypokalemia:   cases 0(no)(797) and 1(yes)(534) nd MV(369)
+
+20) K_BLOOD (mmol/L): serum potasium content: [Real type]
+
+21) GIPER_Na: Increase of sodium in serum (more than 150 mmol/L):   cases 0(no)(1295) and 1(yes)(30) nd MV(375)
+
+22) Na_BLOOD: Serum sodium content (mmol/L): Real.
+
+23) ALT_BLOOD: Serum AlAT content (IU/L): Real.
+
+24) AST_BLOOD: Serum AsAT content (IU/L): Real.
+
+25) KFK_BLOOD: Serum CPK content  (IU/L): Real.
+
+26) L_BLOOD: White blood cell count(billions per liter): Real.
+
+27) ROE: (ESR) (Erythrocyte sedimentation rate) (Ð¼Ð¼): Real.
+
+28) TIME_B_S: Time elapsed from the beginning of the attack of CHD to the hospital(ordinal type)
+	cases:
+		1: less than 2 hours: 198
+		2: 2-4 hours: 360
+		3: 4-6 hours: 175 
+		4: 6-8 hours: 87
+		5: 8-12 hours: 92
+		6: 12-24 hours: 151
+		7: more than 1 days: 141
+		8: more than 2 days: 101 
+		9: more than 3 days: 269
+		Missing values: 126 
+
+29) R_AB_1_n: Relapse of the pain in the first hours of the hospital period(ordinal type)
+	cases:
+		0: there is no relapse: 1282
+		1: only one: 298
+		2: 2 times: 78
+		3: 3 or more times: 26
+		Missing values: 16
+
+30) R_AB_2_n: Relapse of the pain in the second day of the hospital period(ordinal type)
+	cases:
+		0: there is no relapse: 1414
+		1: only one: 133
+		2: 2 times: 44 
+		3: 3 or more times: 1 
+		Missing values: 108 
+
+31) R_AB_3_n: Relapse of the pain in the third day of the hospital period(ordinal type)
+	cases:
+		0: there is no relapse: 1469 
+		1: only one: 86 
+		2: 2 times: 15 
+		3: 3 or more times: 2 
+		Missing values: 1469 
+		
+(upto 95 column)

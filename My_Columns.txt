@@ -1,0 +1,61 @@
+1) zab_leg_04: Cases with a past of chronic pneumonia: Yes or no split
+
+2) zab_leg_06: Cases with a past of Pulmonary tuberculosis: Yes or no split
+
+3) S_AD_KBRIG: Systolic blood pressure according to Emergency Cardiology Team: systolic blood pressure, measures the pressure in your arteries when your heart beats: Number and NULL values: Upper number
+
+4) D_AD_KBRIG: Diastolic blood pressure according to Emergency Cardiology Team: the pressure in the arteries when the heart rests between beats: Number and NULL values: Lower Number
+
+5) S_AD_ORIT: Systolic blood pressure according to intensive care unit:systolic blood pressure, measures the pressure in your arteries when your heart beats: Number: Upper value
+
+6) D_AD_ORIT: Diastolic blood pressure according to intensive care unit:the pressure in the arteries when the heart rests between beats: Number: Lower value
+
+7) O_L_POST: Pulmonary edema at the time of admission to intensive care unit: If patient had PE at the time of admission: Lungs filled with excess fluid:0 or 1
+
+8) K_SH_POST:Cardiogenic shock at the time of admission to intensive care unit: condition where your heart suddenly stops pumping enough oxygen-rich blood to your body: 0 and 1 
+
+9) MP_TP_POST: Paroxysms of atrial fibrillation at the time of admission to intensive care unit: Paroxysmal atrial fibrillation occurs when a rapid, erratic heart rate begins suddenly and then stops on its own within 7 days: 0 and 1
+
+10) SVT_POST: Paroxysms of supraventricular tachycardia at the time of admission to intensive care unit:Paroxysmal supraventricular tachycardia (PSVT) is episodes of rapid heart rate that start in a part of the heart above the ventricles: 0 or 1
+
+11) GT_POST: Paroxysms of ventricular tachycardia at the time of admission to intensive care unit: High/rapid heart rate, similar to PSVT: 0 or 1
+
+12) FIB_G_POST:Ventricular fibrillation at the time of admission to intensive care unit: A life-threatening heart rhythm that results in a rapid, inadequate heartbeat: 0 or 1
+
+13) ant_im: Presence of an anterior myocardial infarction: decrease in blood supply to the anterior wall of the heart: 0, 1, 2, 3 and 4
+
+14) lat_im: Presence of a lateral myocardial infarction: heart attack or cessation of blood flow to the heart muscle that involves the inferior side of the heart: 0, 1, 2, 3 and 4
+
+15) inf_im:  Presence of an inferior myocardial infarction: occurs from a coronary artery occlusion with resultant decreased perfusion to that region of the myocardium: 0, 1, 2, 3 and 4
+
+16) post_im: Presence of a posterior myocardial infarction: occurs when circulation becomes disrupted to the posterior heart: 0, 1, 2, 3 and 4
+
+17) IM_PG_P: Presence of a right ventricular myocardial infarction: Myocardial infarction occurs when blood flow to a part of the heart diminishes or stops altogether, causing irreversible damage to the heart muscles: 0 and 1
+
+18) ritm_ecg_p_01: ECG rhythm at the time of admission to hospital: sinus: 0 and 1
+
+19) ritm_ecg_p_02: ECG rhythm at the time of admission to hospital: atrial fibrillation: An irregular, often rapid heart rate that commonly causes poor blood flow: 0 and 1
+
+20) ritm_ecg_p_04: ECG rhythm at the time of admission to hospital: atrial: 0 and 1
+
+21) ritm_ecg_p_06: ECG rhythm at the time of admission to hospital: idioventricular:cardiac rhythm characterized by a rate of <50 beats per minute (bpm): 0 and 1
+
+22) ritm_ecg_p_07: ECG rhythm at the time of admission to hospital: sinus with a heart rate above 90 (tachycardia):Tachycardia is the medical term for a heart rate over 100 beats per minute: 0 and 1 
+
+23) ritm_ecg_p_08: ECG rhythm at the time of admission to hospital: sinus with a heart rate below 60 (bradycardia):Bradycardia is a slower than normal heart rate. The hearts of adults at rest usually beat between 60 and 100 times a minute: 0 and 1
+
+24) n_r_ecg_p_01: Premature atrial contractions on ECG at the time of admission to hospital: a common cardiac dysrhythmia characterized by premature heartbeats originating in the atria: 0 and 1
+
+25) n_r_ecg_p_02: Frequent premature atrial contractions on ECG at the time of admission to hospital: 0 and 1
+
+26) n_r_ecg_p_03: Premature ventricular contractions on ECG at the time of admission to hospital: Premature ventricular contractions (PVCs) are a type of abnormal heartbeat: 0 and 1
+
+27) n_r_ecg_p_04: Frequent premature ventricular contractions on ECG at the time of admission to hospital:  a type of abnormal heartbeat: 0 and 1
+
+28) n_r_ecg_p_05: Paroxysms of atrial fibrillation on ECG at the time of admission to hospital:  an episode of AF that terminates spontaneously or with intervention in less than seven days: 0 and 1
+
+29) n_r_ecg_p_06: Persistent form of atrial fibrillation on ECG at the time of admission to hospital: 0 and 1
+
+30) n_r_ecg_p_08: Paroxysms of supraventricular tachycardia on ECG at the time of admission to hospital: Paroxysmal supraventricular tachycardia (PSVT) is a type of abnormal heart rhythm, or arrhythmia: 0 and 1
+
+31) n_r_ecg_p_09: Paroxysms of ventricular tachycardia on ECG at the time of admission to hospital: 0 and 1
