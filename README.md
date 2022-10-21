@@ -1,5 +1,9 @@
 # Data-Science-Project-2
-Classification of Myocardial Infraction
+
+Project Name : Classification of Myocardial Infraction.
+
+
+Steps we did while doing project:
 
 Implemented data-preprocessing techniques to transform the raw dataset to a more useful one.
 
